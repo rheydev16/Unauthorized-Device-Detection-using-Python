@@ -1,0 +1,56 @@
+{
+    "IP": "192.168.254.146",
+    "Hostname": "",
+    "State": "up",
+    "MAC": "N/A",
+    "Vendor": {},
+    "OS_Match": [
+        {
+            "Name": "Microsoft Windows 10 1709 - 1803",
+            "Accuracy": "100",
+            "OS_Class": [
+                {
+                    "type": "general purpose",
+                    "vendor": "Microsoft",
+                    "osfamily": "Windows",
+                    "osgen": "10",
+                    "accuracy": "100",
+                    "cpe": [
+                        "cpe:/o:microsoft:windows_10"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Ports": [
+        {
+            "Port": 135,
+            "State": "open",
+            "Name": "msrpc",
+            "Product": "Microsoft Windows RPC",
+            "Version": ""
+        },
+        {
+            "Port": 139,
+            "State": "open",
+            "Name": "netbios-ssn",
+            "Product": "Microsoft Windows netbios-ssn",
+            "Version": ""
+        },
+        {
+            "Port": 445,
+            "State": "open",
+            "Name": "microsoft-ds",
+            "Product": "",
+            "Version": ""
+        },
+        {
+            "Port": 5357,
+            "State": "open",
+            "Name": "http",
+            "Product": "Microsoft HTTPAPI httpd",
+            "Version": "2.0"
+        }
+    ],
+    "Detected_MAC": "2c:f0:5d:d4:fc:f9"
+}
